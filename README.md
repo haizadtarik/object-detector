@@ -19,7 +19,7 @@ integrated with the text-guided object detector by using [BLIP](https://huggingf
     pip install -r requirements.txt
     ```
 
-2. Install and setup GroundingDino
+3. Install and setup GroundingDino
     ```
     git clone https://github.com/IDEA-Research/GroundingDINO.git
     cd GroundingDINO/
@@ -30,7 +30,7 @@ integrated with the text-guided object detector by using [BLIP](https://huggingf
 
 # Example Usage
 
-Text Guided with GroundingDINO
+- Text Guided with GroundingDINO
     ```
     from detectors import textDetector
     import requests
@@ -43,7 +43,7 @@ Text Guided with GroundingDINO
     image_target.show()
     ```
 
-Text Guided with OWL-ViT
+- Text Guided with OWL-ViT
     ```
     from detectors import textDetector
     import requests
@@ -56,7 +56,7 @@ Text Guided with OWL-ViT
     image_target.show()
     ```
 
-Image Guided with OWL-ViT
+- Image Guided with OWL-ViT
     ```
     from detectors import imageDetector
     import requests
@@ -72,7 +72,7 @@ Image Guided with OWL-ViT
     image_target.show()
     ```
 
-Image guided with blip and dino
+- Image guided with blip and dino
     ```
     from detectors import imageDetector
     import requests
